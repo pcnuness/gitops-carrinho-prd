@@ -15,7 +15,7 @@ spec:
   generators:
     # Generator para descobrir aplicações baseado em diretórios
     - git:
-        repoURL: https://github.com/pcnuness/gitops-cluster-management.git
+        repoURL: https://github.com/pcnuness/gitops-carrinho-prd.git
         revision: main
         directories:
           - path: applications/*
@@ -30,7 +30,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/pcnuness/gitops-cluster-management.git
+        repoURL: https://github.com/pcnuness/gitops-carrinho-prd.git
         targetRevision: main
         path: "{{path}}"
         # Sem helm, apenas aplicação direta de manifestos YAML
