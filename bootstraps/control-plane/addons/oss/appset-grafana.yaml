@@ -28,8 +28,8 @@ spec:
         - repoURL: 'https://github.com/pcnuness/platform-addons-charts.git'
           targetRevision: 'main'  # Use 'main' para develop, tags (v0.x.x) para prod
           ref: values-central
-        # Source 2: Repositório do cluster (gitops-cluster-management) - customizações
-        - repoURL: 'https://github.com/pcnuness/gitops-cluster-management.git'
+        # Source 2: Repositório do cluster (gitops-carrinho-prd) - customizações
+        - repoURL: 'https://github.com/pcnuness/gitops-carrinho-prd.git'
           targetRevision: 'main'
           ref: values-cluster
         # Source 3: Chart principal do addon (centralizado)
